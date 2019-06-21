@@ -24,10 +24,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzm-iO-9Dw">
+                                <rect key="frame" x="172" y="494" width="31" height="30"/>
+                                <state key="normal" title="次へ"/>
+                                <connections>
+                                    <segue destination="OS5-7X-c0M" kind="show" id="BCc-RO-JvF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eFm-Ph-Dze" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Wc-rP-cjm"/>
+                            <constraint firstItem="Rzm-iO-9Dw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bzl-Iw-TNo"/>
+                            <constraint firstItem="Rzm-iO-9Dw" firstAttribute="top" secondItem="eFm-Ph-Dze" secondAttribute="bottom" constant="150" id="VaL-N6-vVY"/>
                             <constraint firstItem="eFm-Ph-Dze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pDA-wH-NDg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -35,6 +44,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="fnh-zM-eMf">
+            <objects>
+                <viewController id="OS5-7X-c0M" customClass="ViewController2" customModule="GithubTest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xer-bK-0lb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="へいへい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agm-Fy-Vcf">
+                                <rect key="frame" x="152.5" y="323" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Agm-Fy-Vcf" firstAttribute="centerY" secondItem="xer-bK-0lb" secondAttribute="centerY" id="HRU-k5-3fP"/>
+                            <constraint firstItem="Agm-Fy-Vcf" firstAttribute="centerX" secondItem="xer-bK-0lb" secondAttribute="centerX" id="zjk-mX-VmI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OEQ-FC-qbU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y5l-3n-fPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="27"/>
         </scene>
     </scenes>
 </document>

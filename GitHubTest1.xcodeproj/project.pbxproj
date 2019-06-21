@@ -12,6 +12,7 @@
 		5F3EF49622BC2FD400DAD577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EF49422BC2FD400DAD577 /* Main.storyboard */; };
 		5F3EF49822BC2FD800DAD577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EF49722BC2FD800DAD577 /* Assets.xcassets */; };
 		5F3EF49B22BC2FD800DAD577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3EF49922BC2FD800DAD577 /* LaunchScreen.storyboard */; };
+		5F3EF4A322BD856600DAD577 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EF4A222BD856600DAD577 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F3EF49722BC2FD800DAD577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3EF49A22BC2FD800DAD577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F3EF49C22BC2FD800DAD577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3EF4A222BD856600DAD577 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				5F3EF49022BC2FD400DAD577 /* AppDelegate.swift */,
 				5F3EF49222BC2FD400DAD577 /* ViewController.swift */,
+				5F3EF4A222BD856600DAD577 /* ViewController2.swift */,
 				5F3EF49422BC2FD400DAD577 /* Main.storyboard */,
 				5F3EF49722BC2FD800DAD577 /* Assets.xcassets */,
 				5F3EF49922BC2FD800DAD577 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				5F3EF49322BC2FD400DAD577 /* ViewController.swift in Sources */,
 				5F3EF49122BC2FD400DAD577 /* AppDelegate.swift in Sources */,
+				5F3EF4A322BD856600DAD577 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
