@@ -12,6 +12,7 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //変更を加える
         // Do any additional setup after loading the view, typically from a nib.
     }
     
